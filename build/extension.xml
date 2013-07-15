@@ -1,0 +1,23 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	<id>com.sticksports.nativeExtensions.Apsalar</id>
+	<versionNumber>0.1.0</versionNumber>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libApsalarIosExtension.a</nativeLibrary>
+				<initializer>ApsalarExtensionInitializer</initializer>
+				<finalizer>ApsalarExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>ApsalarAndroidExtension.jar</nativeLibrary>
+				<initializer>com.sticksports.nativeExtensions.apsalar.ApsalarExtension</initializer>
+				<finalizer>com.sticksports.nativeExtensions.apsalar.ApsalarExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+	</platforms>
+</extension>

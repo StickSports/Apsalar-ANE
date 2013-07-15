@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<platform xmlns="http://ns.adobe.com/air/extension/3.1">
+
+	<!-- Options that should be passed to the linker. Optional. -->
+	<linkerOptions>
+		<option>-ios_version_min 5.0</option>
+		<option>-framework SystemConfiguration</option>
+		<option>-weak_framework AdSupport</option>
+		<option>-lsqlite3</option>
+		<option>-lz</option>
+	</linkerOptions>
+
+</platform>

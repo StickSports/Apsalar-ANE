@@ -1,0 +1,53 @@
+h1. Air Native Extension for Apsalar analytics on iOS & Android
+
+This is an "Air native extension":http://www.adobe.com/devnet/air/native-extensions-for-air.html for "Apsalar analytics":https://apsalar.com/ on the iOS and Android platforms.
+
+h3. Version
+
+This is version 0.1.0 of this extension. The compiled extension contains version 5.1.2 of the Apsalar Analytics library for iOS and version 4.0.1 of the Apsalar Analytics library for Android.
+
+h3. Binary files
+
+The bin folder contains the compiled extension and the default swc, which can be used for local testing if required by your development environment (Flash Builder shouldn't need it, but other IDEs may).
+
+h3. Using the extension
+
+h4. Start an Apsalar session
+
+At its simplest, you initialize the extension with your api keys as follows
+
+@Apsalar.startSession( "your api key", "your api secret" );@
+
+You should only start the session once, after which you can log as many events as you wish.
+
+h4. Start an Apsalar session with an opening url (iOS only)
+
+@Apsalar.startSession( "your api key", "your api secret", "opening url" );@
+
+Th eopening url is the url that directed iOS to open your app.
+
+h4. Log a simple event
+
+You may then log events with Apsalar like this
+
+@Apsalar.logEvent( "User did something" );@
+
+h4. Log an event with parameters
+
+You can pass parameters through to a Apsalar event via a simple object, as follows
+
+@Apsalar.logEvent( "Screen resolution", { width : Capabilities.screenResolutionX, height : Capabilities.screenResolutionY, dpi : Capabilities.screenDPI } );@
+
+h4. End an Apsalar session
+
+Ends the current session.
+
+@Apsalar.endSession();@
+
+h3. Developers
+
+* "Stick Sports":http://www.sticksports.com/
+
+h2. License
+
+This project is licensed under the "BSD license":https://github.com/StickSports/Apsalar-ANE/blob/master/LICENSE
