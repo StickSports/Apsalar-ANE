@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7908F38D17D8E34100F8529B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7908F38C17D8E34100F8529B /* libsqlite3.0.dylib */; };
 		796BAFBD1778A258002BE955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796BAFBC1778A258002BE955 /* Foundation.framework */; };
 		796BAFC41778A258002BE955 /* ApsalarIosExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 796BAFC31778A258002BE955 /* ApsalarIosExtension.m */; };
-		796BAFD41778A3ED002BE955 /* libApsalar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 796BAFD21778A3ED002BE955 /* libApsalar.a */; };
 		796BAFDA1778A433002BE955 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 796BAFD71778A433002BE955 /* libz.dylib */; };
 		796BAFDB1778A433002BE955 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796BAFD81778A433002BE955 /* Security.framework */; };
 		796BAFDC1778A433002BE955 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796BAFD91778A433002BE955 /* SystemConfiguration.framework */; };
 		796BAFE01778A472002BE955 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796BAFDF1778A472002BE955 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		796BAFE41778B1AD002BE955 /* Apsalar_TypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 796BAFE31778B1AD002BE955 /* Apsalar_TypeConversion.m */; };
+		796BE24417E372BC00241F04 /* libApsalar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 796BE24217E372BC00241F04 /* libApsalar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,19 +31,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7908F38C17D8E34100F8529B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		796BAFB91778A258002BE955 /* libApsalarIosExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libApsalarIosExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		796BAFBC1778A258002BE955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		796BAFC31778A258002BE955 /* ApsalarIosExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApsalarIosExtension.m; sourceTree = "<group>"; };
-		796BAFD01778A3ED002BE955 /* Apsalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apsalar.h; sourceTree = "<group>"; };
-		796BAFD11778A3ED002BE955 /* Apsalar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Apsalar.js; sourceTree = "<group>"; };
-		796BAFD21778A3ED002BE955 /* libApsalar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libApsalar.a; sourceTree = "<group>"; };
-		796BAFD51778A415002BE955 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		796BAFD71778A433002BE955 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		796BAFD81778A433002BE955 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		796BAFD91778A433002BE955 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		796BAFDF1778A472002BE955 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		796BAFE21778B1AD002BE955 /* Apsalar_TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apsalar_TypeConversion.h; sourceTree = "<group>"; };
 		796BAFE31778B1AD002BE955 /* Apsalar_TypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apsalar_TypeConversion.m; sourceTree = "<group>"; };
+		796BE24017E372BC00241F04 /* Apsalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apsalar.h; sourceTree = "<group>"; };
+		796BE24117E372BC00241F04 /* Apsalar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Apsalar.js; sourceTree = "<group>"; };
+		796BE24217E372BC00241F04 /* libApsalar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libApsalar.a; sourceTree = "<group>"; };
 		798324A917799F19000A26FA /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,22 +52,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7908F38D17D8E34100F8529B /* libsqlite3.0.dylib in Frameworks */,
 				796BAFE01778A472002BE955 /* AdSupport.framework in Frameworks */,
 				796BAFDA1778A433002BE955 /* libz.dylib in Frameworks */,
 				796BAFDB1778A433002BE955 /* Security.framework in Frameworks */,
 				796BAFDC1778A433002BE955 /* SystemConfiguration.framework in Frameworks */,
 				796BAFBD1778A258002BE955 /* Foundation.framework in Frameworks */,
-				796BAFD41778A3ED002BE955 /* libApsalar.a in Frameworks */,
+				796BE24417E372BC00241F04 /* libApsalar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7908F38E17D8E52000F8529B /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				796BE24017E372BC00241F04 /* Apsalar.h */,
+				796BE24117E372BC00241F04 /* Apsalar.js */,
+				796BE24217E372BC00241F04 /* libApsalar.a */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
 		796BAFB01778A258002BE955 = {
 			isa = PBXGroup;
 			children = (
-				796BAFCF1778A3D9002BE955 /* Apsalar */,
+				7908F38E17D8E52000F8529B /* sdk */,
 				796BAFBE1778A258002BE955 /* ApsalarIosExtension */,
 				796BAFBB1778A258002BE955 /* Frameworks */,
 				796BAFBA1778A258002BE955 /* Products */,
@@ -84,11 +96,11 @@
 		796BAFBB1778A258002BE955 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7908F38C17D8E34100F8529B /* libsqlite3.0.dylib */,
 				796BAFDF1778A472002BE955 /* AdSupport.framework */,
 				796BAFD71778A433002BE955 /* libz.dylib */,
 				796BAFD81778A433002BE955 /* Security.framework */,
 				796BAFD91778A433002BE955 /* SystemConfiguration.framework */,
-				796BAFD51778A415002BE955 /* libsqlite3.dylib */,
 				796BAFBC1778A258002BE955 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -103,16 +115,6 @@
 				798324A917799F19000A26FA /* FlashRuntimeExtensions.h */,
 			);
 			path = ApsalarIosExtension;
-			sourceTree = "<group>";
-		};
-		796BAFCF1778A3D9002BE955 /* Apsalar */ = {
-			isa = PBXGroup;
-			children = (
-				796BAFD01778A3ED002BE955 /* Apsalar.h */,
-				796BAFD11778A3ED002BE955 /* Apsalar.js */,
-				796BAFD21778A3ED002BE955 /* libApsalar.a */,
-			);
-			name = Apsalar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +238,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../gitignore/Apsalar/Apsalar-iOS-6.0.0/sdk\"",
+					"\"$(SRCROOT)/sdk\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -256,6 +260,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../gitignore/Apsalar/Apsalar-iOS-6.0.0/sdk\"",
+					"\"$(SRCROOT)/sdk\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
