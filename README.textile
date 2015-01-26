@@ -1,5 +1,7 @@
 h1. Air Native Extension for Apsalar analytics on iOS & Android
 
+*Please note that we are no longer able to support this project and are not contributing to it.*
+
 This is an "Air native extension":http://www.adobe.com/devnet/air/native-extensions-for-air.html for "Apsalar analytics":https://apsalar.com/ on the iOS and Android platforms.
 
 h3. Version
